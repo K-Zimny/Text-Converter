@@ -26,3 +26,7 @@ textarea {
     width: 50vw;
     min-width: 350px;
 }
+
+.header {
+    text-align: center;
+}
