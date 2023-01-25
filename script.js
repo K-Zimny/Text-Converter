@@ -2,7 +2,6 @@ submitBtn = document.getElementById("submitDisplay");
 textBox = document.getElementById("textBoxDisplay");
 resultDisplay = document.getElementById("resultDisplay");
 let copyBtn = document.getElementById("copyButton");
-
 let textSubmission; 
 
 //Transform upcase text to lowercase. Cap first Letter
