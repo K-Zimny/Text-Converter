@@ -9,19 +9,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Text Converter</h1>
-        <p>Converts all caps to lowercase. Caps first letter of each sentence.</p>
-    </div>
-    <div class="input-box">
-        <label for="textBoxDisplay">Place text here:</label>
-        <textarea name="textBoxDisplay" id="textBoxDisplay"></textarea>
-    </div>
-    <div>
-        <input id="submitDisplay" type="submit" value="Submit">
-    </div>
-    <div>
-        <p id="resultDisplay"></p>
+    <div class="content-container">
+        <div class="header">
+            <h1>Text Converter</h1>
+            <p>Converts all caps to lowercase. Caps first letter of each sentence.</p>
+        </div>
+        <div class="input-box">
+            <label for="textBoxDisplay">Place text here:</label>
+            <textarea name="textBoxDisplay" id="textBoxDisplay"></textarea>
+        </div>
+        <div>
+            <input id="submitDisplay" for="textBoxDisplay" type="submit" value="Submit">
+        </div>
+        <div>
+            <p id="resultDisplay"></p>
+        </div>
     </div>
 </body>
 </html>

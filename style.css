@@ -8,8 +8,20 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+
+}
+
+.content-container {
+    max-width: 1050px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 2rem;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2rem;
 }
 
 label,
@@ -29,4 +41,21 @@ textarea {
 
 .header {
     text-align: center;
+}
+
+p,
+textarea {
+    font-size: 20px;
+}
+
+#submitDisplay {
+    padding: 1.5rem 4rem;
+    background: linear-gradient(45deg, #9fadd9, transparent);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submitDisplay:hover {
+    transform: scale(1.05);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1), .1s;
 }
